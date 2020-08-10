@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import gensim.downloader as api
 from gensim.models import KeyedVectors
 from itertools import combinations_with_replacement, permutations
-import language_check
+import language_tool_python as language_check
 import os
 import sys
 import re
